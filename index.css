@@ -115,4 +115,47 @@ button {
     color: white;
     border-radius: 10%;
 }
+.codepen {
+    background-color: gold;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.personal-page {
+    font-size: 3rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+}
+.club-page {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.technical-page {
+    font-size: 3rem;
+    display: flex;
+justify-content: right;
+margin-left: 70%;
+}
+.about-me {
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+.beginning {
+    font-size: 2rem;
+    background: red;
+}
+.army {
+    font-size: 2rem;
+    background: white;
+}
+.current {
+    font-size: 2rem;
+    background: blue;
+    color: white;
+}
+
 
