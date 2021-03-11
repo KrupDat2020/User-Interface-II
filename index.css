@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* start of my code */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: yellowgreen;
+}
+h1 {
+    color: red;
+    font-size: 4rem;
+    font-family: 'Akaya Telivigala', sans-serif;
+    display: flex;
+    justify-content: left;
+    margin-left: 3%;
+}
+#nav-bar {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 70%;
+    padding-bottom: 10%;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    color:darkblue;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+span {
+    color: darkblue;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    height: 200px;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.container2 {
+    height: 200px;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+button {
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+}
+.codepen {
+    background-color: gold;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.personal-page {
+    font-size: 3rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+}
+.club-page {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.technical-page {
+    font-size: 3rem;
+    display: flex;
+justify-content: right;
+margin-left: 70%;
+}
+.about-me {
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+.beginning {
+    font-size: 2rem;
+    background: red;
+}
+.army {
+    font-size: 2rem;
+    background: white;
+}
+.current {
+    font-size: 2rem;
+    background: blue;
+    color: white;
+}
+
+
