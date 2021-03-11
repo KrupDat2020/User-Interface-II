@@ -50,8 +50,20 @@ html {
     font-size: 62.5%;
 }
 h1 {
-    color: blue;
+    color: red;
     font-size: 4rem;
+    font-family: 'Akaya Telivigala', sans-serif;
+    display: flex;
+    justify-content: left;
+    margin-left: 3%
+}
+#nav-bar {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.middle {
     display: flex;
     justify-content: center;
 }
