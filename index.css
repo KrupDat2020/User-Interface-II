@@ -160,8 +160,9 @@ margin-left: 70%;
 /* media queries */
 
 @media (max-width: 500px) {
-    .box {
+    .container .container2 div {
         display: flex;
+        flex-wrap: no-wrap;
         flex-direction: column;
     }
 }
