@@ -160,17 +160,9 @@ margin-left: 70%;
 /* media queries */
 
 @media (max-width: 500px) {
-     .container div{
+    .box {
         display: flex;
-        flex-wrap: no-wrap;
         flex-direction: column;
-        justify-content: center;
-    }
-    .container2 div {
-        display: flex;
-        flex-wrap: no-wrap;
-        flex-direction: column;
-        justify-content: center;
     }
 }
 
