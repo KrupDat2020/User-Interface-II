@@ -158,13 +158,17 @@ margin-left: 70%;
     color: white;
 }
 /* media queries */
-
 @media (max-width: 500px) {
-    .container .container2 div {
+    .container .images{
         display: flex;
         flex-wrap: no-wrap;
         flex-direction: column;
+        width: 80%;
+    }
+    .container2 .images {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        width: 51%;
     }
 }
-
-
