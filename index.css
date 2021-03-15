@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -45,6 +44,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid gray;
 }
 html {
     font-size: 62.5%;
@@ -63,7 +63,7 @@ h1 {
 #nav-bar {
     font-size: 1.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-right: 10%;
     margin-left: 70%;
     padding-bottom: 10%;
@@ -156,6 +156,22 @@ margin-left: 70%;
     font-size: 2rem;
     background: blue;
     color: white;
+}
+/* media queries */
+
+@media (max-width: 500px) {
+     .container div{
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container2 div {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
